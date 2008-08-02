@@ -1,4 +1,4 @@
-require 'packetset'
+require File.expand_path(File.join(File.dirname(__FILE__), 'packetset'))
 
 module Dot11
   class Packet

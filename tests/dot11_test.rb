@@ -1,4 +1,4 @@
-require 'dot11/dot11'
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'dot11', 'dot11'))
 
 include Dot11
 

@@ -5,7 +5,8 @@ Gem::Specification.new do |s|
   s.summary       = 'Simple 802.11 packet parser.'
   s.homepage      = 'http://github.com/dxoigmn/dot11'
   s.description   = 'A simple 802.11 packet parser.'
-  s.files         = [ 'lib/dot11.rb',
+  s.files         = [ 'README.markdown',
+                      'lib/dot11.rb',
                       'lib/dot11/dot11.rb',
                       'lib/dot11/macaddress.rb',
                       'lib/dot11/packet.rb',

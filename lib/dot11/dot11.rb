@@ -1,6 +1,6 @@
-require 'macaddress'
-require 'packet'
-require 'raw'
+require File.expand_path(File.join(File.dirname(__FILE__), 'macaddress'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'packet'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'raw'))
 
 module Dot11
   class Dot11 < Packet

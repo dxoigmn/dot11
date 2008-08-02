@@ -1,4 +1,4 @@
-require 'packet'
+require File.expand_path(File.join(File.dirname(__FILE__), 'packet'))
 
 module Dot11
   class Radiotap < Packet

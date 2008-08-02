@@ -9,9 +9,9 @@ class String
   end
 end
 
-require 'dot11/packet'
-require 'dot11/packetset'
-require 'dot11/macaddress'
-require 'dot11/dot11'
-require 'dot11/raw'
-require 'dot11/radiotap'
+require File.expand_path(File.join(File.dirname(__FILE__), 'dot11', 'packet'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'dot11', 'packetset'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'dot11', 'macaddress'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'dot11', 'dot11'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'dot11', 'raw'))
+require File.expand_path(File.join(File.dirname(__FILE__), 'dot11', 'radiotap'))
