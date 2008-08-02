@@ -8,7 +8,7 @@ module Dot11
       def new(parameters = {})
         # Maybe we shouldn't do it this way, but it looks prettier
         if !parameters.kind_of?(String) && parameters.values.any? {|v| v.kind_of?(Array) || v.kind_of?(Range)}
-          Dot11::PacketSet.new(self, parameters)
+          PacketSet.new(self, parameters)
         else
           older_new(parameters)
         end
